@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+header {
+    width: 100%;
+    /* display: flex;  */
+}
+
+.logo {
+    width: 80%;
+    padding: 15px 0; 
+}
+
+.ham {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+  }
+
+  .cross {
+    display: none;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    color: black;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    list-style: none;
+    padding-top: 4rem;
+  }
+
+  .hamburger{
+    color:#949398;
+    font-size:1.4em;
+    font-weight:bold;
+  }
+
+
+  .showMenu {
+    transform: translateY(0);
+  }
+
+  li {
+    padding: 1rem 0;
+  }
+  
+  .menuLink {
+    display: inline;
+    font-size: 2rem;
+    color black;
+    text-decoration: none;
+  }
+
+.hero {
+    width: 100%; 
+}
+
+.menuLink:hover {
+    text-decoration: underline;
+  }
