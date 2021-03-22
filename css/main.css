@@ -11,7 +11,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 /********** General Styles ****************/
 body {
   font-family: acumin-pro, sans-serif;
-  font-weight: 400;
+  f
   font-style: normal;
 }
 
@@ -48,13 +48,18 @@ h2 {
 /********** Header Styles ****************/
 header {
     width: 100%;
-    /* display: flex;  */
+}
+
+nav {
+  height: 125px; 
 }
 
 .logo {
     width: 80%;
     max-width: 375px;
     padding: 15px 0; 
+    position: relative;
+	  float: left;
 }
 
 .desktop-menu {
@@ -113,6 +118,7 @@ li {
 .menuLink {
     display: inline;
     font-size: 2rem;
+    font-weight: 700;
     color: white; 
     text-decoration: none;
   }
@@ -235,14 +241,15 @@ footer p {
   }
   
   .desktop-menu {
-    display: inline;
+    display: block;
     text-align: right;
+    padding-right: 10px; 
   }
 
   .desktop-menu li {
     display: inline;
     position: relative;
-    top: -57px;
+    top: 45px;
   }
   
   .menuLink {
@@ -304,7 +311,6 @@ footer p {
     padding: 15px; 
   }
 }
-
 
 /********** End Min-Width 900px Media Query ****************/
 
