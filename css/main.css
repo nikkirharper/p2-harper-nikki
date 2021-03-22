@@ -11,7 +11,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 /********** General Styles ****************/
 body {
   font-family: acumin-pro, sans-serif;
-  f
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -287,7 +287,7 @@ footer p {
   h2 {
     font-size: 2.3em;
   }
-  }
+
   .cta {
     width: 30%;
     color: white; 
@@ -313,6 +313,28 @@ footer p {
 }
 
 /********** End Min-Width 900px Media Query ****************/
+
+
+/********** Start Min-Width 1100px Media Query ****************/
+@media (min-width: 1100px) {
+  .hero-wrapper {
+    height: 400px;
+  }
+
+  .cta {
+    width: 25%;
+  }
+
+  .cta2 {
+    width: 14%;
+  }
+
+  .meet a {
+    font-size: 1.2rem;
+  }
+}
+
+/********** End Min-Width 1100px Media Query ****************/
 
 
 
