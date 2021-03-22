@@ -27,3 +27,20 @@ var menuLinks = document.querySelectorAll(".menuLink");
     }
   )
 
+// // Navigation sub-menu transition for Adopt
+// var button1 = document.getElementById("adopt");
+// var wrapper1 = document.getElementById("adopt-wrapper");
+
+// function showWrapper1() {
+//   wrapper1.classList.add("show");
+// }
+
+// function hideWrapper1() {
+//   wrapper1.classList.remove("show"); 
+// }
+
+// button1.addEventListener("mouseover", showWrapper1);
+// button1.addEventListener("mouseleave", hideWrapper1);
+
+
+
