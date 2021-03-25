@@ -161,6 +161,16 @@ li {
   width: 100%;
 }
 
+.hero-wrapper-cats {
+  background-image: url(../images/cats_header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 240px;
+  width: 100%;
+}
+
 .hero-text {
   width: 53%;
   position: absolute;
@@ -227,7 +237,7 @@ footer p {
 
 /********** Start Min-Width 650px Media Query ****************/
 @media (min-width: 650px) {
-  .hero-wrapper, .hero-wrapper-dogs {
+  .hero-wrapper, .hero-wrapper-dogs, .hero-wrapper-cats {
     height: 300px; 
   }
 
@@ -315,7 +325,7 @@ footer p {
     transition: height .5s;
   }
   
-  .hero-wrapper, .hero-wrapper-dogs {
+  .hero-wrapper, .hero-wrapper-dogs, .hero-wrapper-cats {
     height: 350px;
   }
 
@@ -364,7 +374,7 @@ footer p {
     padding: 1rem 1.5rem;
   }
   
-  .hero-wrapper, .hero-wrapper-dogs {
+  .hero-wrapper, .hero-wrapper-dogs, .hero-wrapper-cats {
     height: 400px;
   }
 
