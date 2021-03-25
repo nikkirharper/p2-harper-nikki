@@ -248,7 +248,6 @@ footer p {
     position: relative;
     top: 35px;
   } 
-    
 
   .desktop-menu li {
     /* display: inline; */
@@ -256,7 +255,6 @@ footer p {
     list-style-type: none;
     top: 45px;
     padding: 1rem 1rem;
-  
   }
   
   .menuLink {
@@ -271,13 +269,12 @@ footer p {
     /* display: inline;  */
     background-color: #059eb1;
     /* width: 100%; */
-    padding: 10px 10px 10px 0;
     /* box-sizing: border-box; */
     position: absolute; 
     z-index: 1000;
     text-align: left;
     top: 90px;
-  
+
   }
 
   .sub-menu li {
@@ -289,9 +286,20 @@ footer p {
     text-decoration: none;
   }
 
-  .show {
-    height: 185px; 
-    transition: height 1s; 
+  .condensed {
+    height: 0px; 
+    overflow: hidden;
+    transition: height .5s
+  }
+
+  .show-adopt {
+    height: 290px; 
+    transition: height .5s;
+  }
+
+  .show-volunteer {
+    height: 175px; 
+    transition: height .5s;
   }
   
   .hero-wrapper {

@@ -27,20 +27,38 @@ var menuLinks = document.querySelectorAll(".menuLink");
     }
   )
 
-// // Navigation sub-menu transition for Adopt
-// var button1 = document.getElementById("adopt");
-// var wrapper1 = document.getElementById("adopt-wrapper");
+// Navigation sub-menu transition for Adopt
+var button1 = document.getElementById("adopt");
+var wrapper1 = document.getElementById("adopt-wrapper");
 
-// function showWrapper1() {
-//   wrapper1.classList.add("show");
-// }
+function showWrapper1() {
+  wrapper1.classList.add("show-adopt");
+}
 
-// function hideWrapper1() {
-//   wrapper1.classList.remove("show"); 
-// }
+function hideWrapper1() {
+  wrapper1.classList.remove("show-adopt"); 
+}
 
-// button1.addEventListener("mouseover", showWrapper1);
-// button1.addEventListener("mouseleave", hideWrapper1);
+button1.addEventListener("mouseover", showWrapper1);
+button1.addEventListener("mouseleave", hideWrapper1);
+
+
+// Navigation sub-menu transition for Volunteer
+var button2 = document.getElementById("volunteer");
+var wrapper2 = document.getElementById("volunteer-wrapper");
+
+function showWrapper2() {
+  wrapper2.classList.add("show-volunteer");
+}
+
+function hideWrapper2() {
+  wrapper2.classList.remove("show-volunteer"); 
+}
+
+button2.addEventListener("mouseover", showWrapper2);
+button2.addEventListener("mouseleave", hideWrapper2);
+
+
 
 
 
