@@ -138,8 +138,21 @@ li {
 
 /********** Hamburger Menu End ****************/
 
+
+/********** Hero Section Styles ***************/
+
 .hero-wrapper {
   background-image: url(../images/home_header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 240px;
+  width: 100%;
+}
+
+.hero-wrapper-dogs {
+  background-image: url(../images/dogs_header.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -214,7 +227,7 @@ footer p {
 
 /********** Start Min-Width 650px Media Query ****************/
 @media (min-width: 650px) {
-  .hero-wrapper {
+  .hero-wrapper, .hero-wrapper-dogs {
     height: 300px; 
   }
 
@@ -302,7 +315,7 @@ footer p {
     transition: height .5s;
   }
   
-  .hero-wrapper {
+  .hero-wrapper, .hero-wrapper-dogs {
     height: 350px;
   }
 
@@ -351,7 +364,7 @@ footer p {
     padding: 1rem 1.5rem;
   }
   
-  .hero-wrapper {
+  .hero-wrapper, .hero-wrapper-dogs {
     height: 400px;
   }
 
