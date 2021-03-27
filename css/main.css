@@ -172,10 +172,10 @@ li {
 }
 
 .hero-text {
-  width: 53%;
+  width: 52%;
   position: absolute;
   top: 50%;
-  left: 69%;
+  left: 71%;
   transform: translate(-50%, -50%);
 }
 
@@ -400,6 +400,13 @@ footer p {
 }
 
 /********** End Min-Width 1100px Media Query ****************/
+
+/********** Start Min-Width 1300px Media Query ****************/
+@media (min-width: 1300px) {
+   .hero-wrapper, .hero-wrapper-dogs, .hero-wrapper-cats {
+    height: 460px;
+  }
+/********** End Min-Width 1300px Media Query ****************/
 
 
 
