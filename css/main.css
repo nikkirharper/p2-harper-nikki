@@ -179,6 +179,14 @@ li {
   transform: translate(-50%, -50%);
 }
 
+.hero-text-cats {
+  width: 53%;
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+}
+
 /********** Main Section Styles ****************/
 
 .container {
