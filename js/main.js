@@ -78,7 +78,20 @@ closeModal.addEventListener('click',
 });
 
 
+//Adoptable Dogs API
+// var dogName = document.querySelectorAll('#adoptable-dogs p span');
 
+// var xmlhttp = new XMLHttpRequest();
+// xmlhttp.onreadystatechange = function() {
+//     if (this.readyState == 4 && this.status == 200) {
+//         var apiResult = JSON.parse(this.responseText);
+
+//         dogName[0].innerHTML = 
+
+//     }
+// };
+// xmlhttp.open('GET', 'https://api.petfinder.com/v2/animals?key=VbmCfYHhv2pZ0onOYBFyS2tcgatPWSt8sNgv1UzGqTzkMwoylw&animal=cat&location="06824"&output=basic&format=json', true);
+// xmlhttp.send();
 
 
 

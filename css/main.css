@@ -45,6 +45,13 @@ h2 {
   text-align: center;
 }
 
+.cta:hover {
+  background-color: white;
+  color: #059eb1; 
+  border: 2px #059eb1 solid;
+  border-radius: 6px;
+}
+
 /********** Header Styles ****************/
 header {
     width: 100%;
@@ -94,7 +101,7 @@ nav {
     bottom: 0;
     width: 100%;
     height: 100vh;
-    background-color:  #059eb1; 
+    background-color: #059eb1; 
     transform: translateY(-100%);
     transition: transform 0.2s;
     list-style: none;
@@ -217,6 +224,10 @@ li {
   text-decoration: none;
   font-weight: 700;
   padding: 5px 0 40px 10px; 
+}
+
+.meet a:hover {
+  color: #059eb1;
 }
 
 
@@ -379,6 +390,11 @@ footer p {
     font-size: 1rem;
     color: #949398; 
     text-decoration: none;
+  }
+
+  .menuLink:hover {
+    text-decoration: none;
+    color: #059eb1;
   }
 
   .sub-menu-desktop {
