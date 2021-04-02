@@ -93,7 +93,7 @@ xmlhttp.onreadystatechange = function () {
               dog6Image.src = "images/default.jpg";
             }
             dog6Name.innerHTML = (JSON.parse(xhr.responseText).animals[5].name);
-            dog6Description.innerHTML = (JSON.parse(xhr.responseText).animals[0].description);
+            dog6Description.innerHTML = (JSON.parse(xhr.responseText).animals[5].description);
             }};
        xhr.send();
     }};

@@ -57,5 +57,3 @@ function hideWrapper2() {
 
 button2.addEventListener("mouseover", showWrapper2);
 button2.addEventListener("mouseleave", hideWrapper2);
-
-
