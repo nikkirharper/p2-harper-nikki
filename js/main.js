@@ -95,41 +95,66 @@ xmlhttp.onreadystatechange = function () {
           if (xhr.readyState === 4) {
             //  console.log(xhr.status);
             //  console.log(xhr.responseText);
-             //Dog 1
-             dog1Name.innerHTML = (JSON.parse(xhr.responseText).animals[0].name);
-             dog1Description.innerHTML = (JSON.parse(xhr.responseText).animals[0].description);
-             try {
+            //Dog 1
+            try {
               dog1Image.src = (JSON.parse(xhr.responseText).animals[0].photos[0].medium);
              }
-             catch {
-              dog1Image.src = "images/meet_our_dogs.jpg";
+             catch(err) {
+              dog1Image.src = "images/default.jpg";
              }
+             dog1Name.innerHTML = (JSON.parse(xhr.responseText).animals[0].name);
+             dog1Description.innerHTML = (JSON.parse(xhr.responseText).animals[0].description);
+          
+            //Dog 2
+            try{
+              dog2Image.src = (JSON.parse(xhr.responseText).animals[1].photos[0].medium);
+            }
+            catch(err) {
+              dog2Image.src = "images/default.jpg";
+            }
+            dog2Name.innerHTML = (JSON.parse(xhr.responseText).animals[1].name);
+            dog2Description.innerHTML = (JSON.parse(xhr.responseText).animals[1].description);
+            
+            //Dog 3
+            try {
+              dog3Image.src = (JSON.parse(xhr.responseText).animals[2].photos[0].medium);
+            }
+            catch(err) {
+              dog3Image.src = "images/default.jpg";
+            }
+            dog3Name.innerHTML = (JSON.parse(xhr.responseText).animals[2].name);
+            dog3Description.innerHTML = (JSON.parse(xhr.responseText).animals[2].description);
 
-             //Dog 2
-             dog2Name.innerHTML = (JSON.parse(xhr.responseText).animals[1].name);
-             dog2Description.innerHTML = (JSON.parse(xhr.responseText).animals[1].description);
-             dog2Image.src = (JSON.parse(xhr.responseText).animals[1].photos[0].medium);
+            //Dog 4
+            try {
+              dog4Image.src = (JSON.parse(xhr.responseText).animals[3].photos[0].medium);
+            }
+            catch(err) {
+              dog4Image.src = "images/default.jpg";
+            }
+            dog4Name.innerHTML = (JSON.parse(xhr.responseText).animals[3].name);
+            dog4Description.innerHTML = (JSON.parse(xhr.responseText).animals[3].description);
 
-             //Dog 3
-             dog3Name.innerHTML = (JSON.parse(xhr.responseText).animals[2].name);
-             dog3Description.innerHTML = (JSON.parse(xhr.responseText).animals[2].description);
-             dog3Image.src = (JSON.parse(xhr.responseText).animals[2].photos[0].medium);
+            //Dog 5
+            try {
+              dog5Image.src = (JSON.parse(xhr.responseText).animals[4].photos[0].medium);
+            }
+            catch(err) {
+              dog5Image.src = "images/default.jpg";
+            }
+            dog5Name.innerHTML = (JSON.parse(xhr.responseText).animals[4].name);
+            dog5Description.innerHTML = (JSON.parse(xhr.responseText).animals[4].description);
 
-             //Dog 4
-             dog4Name.innerHTML = (JSON.parse(xhr.responseText).animals[3].name);
-             dog4Description.innerHTML = (JSON.parse(xhr.responseText).animals[3].description);
-             dog4Image.src = (JSON.parse(xhr.responseText).animals[3].photos[0].medium);
-
-             //Dog 5
-             dog5Name.innerHTML = (JSON.parse(xhr.responseText).animals[4].name);
-             dog5Description.innerHTML = (JSON.parse(xhr.responseText).animals[4].description);
-             dog5Image.src = (JSON.parse(xhr.responseText).animals[4].photos[0].medium);
-
-             //Dog 6
-             dog6Name.innerHTML = (JSON.parse(xhr.responseText).animals[5].name);
-             dog6Description.innerHTML = (JSON.parse(xhr.responseText).animals[5].description);
-             dog6Image.src = (JSON.parse(xhr.responseText).animals[5].photos[0].medium);
-
+            //Dog 6
+            try {
+              dog6Image.src = (JSON.parse(xhr.responseText).animals[5].photos[0].medium);
+            }
+            catch(err) {
+              dog6Image.src = "images/default.jpg";
+            }
+            dog6Name.innerHTML = (JSON.parse(xhr.responseText).animals[5].name);
+            dog5Description.innerHTML = (JSON.parse(xhr.responseText).animals[5].description);
+            
             }};
        xhr.send();
     }};
