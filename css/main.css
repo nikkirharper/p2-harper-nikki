@@ -89,7 +89,6 @@ nav {
     display: none;
     color: white;
     font-size: 3em; 
-
   }
 
 .menu {
@@ -134,6 +133,10 @@ li {
     text-decoration: underline;
   }
 
+.sub-menu {
+  list-style: none;
+}
+
 .sub-menu li { 
   padding: 0 0 1rem 4rem;
 }
@@ -141,6 +144,10 @@ li {
 .sub-menu li a {
   color: white; 
   text-decoration: none;
+}
+
+.menu li p {
+  padding-bottom: 10px; 
 }
 
 /********** Hamburger Menu End ****************/
