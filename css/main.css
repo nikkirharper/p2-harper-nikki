@@ -154,7 +154,6 @@ li {
 
 
 /********** Hero Section Styles ***************/
-
 .hero-wrapper {
   background-image: url(../images/home_header.jpg);
   background-repeat: no-repeat;
@@ -309,16 +308,9 @@ footer p {
   visibility: hidden;
   width: 100%;
   z-index: 10;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
@@ -357,7 +349,6 @@ footer p {
   float: right;
   font-size: 40px;
   opacity: 0.4;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
@@ -410,14 +401,12 @@ footer p {
   }
 
   #adoptable figure {
-    /* width: 45%;  */
     max-width: 300px; 
     height: 300px; 
     margin: auto;
     padding-bottom: 20px; 
   }
 /********** End Min-Width 650px Media Query ****************/
-
 
 /********** Start Min-Width 900px Media Query ****************/
 @media (min-width: 900px) {
@@ -435,8 +424,6 @@ footer p {
   } 
 
   .desktop-menu li {
-    /* display: inline; */
-    /* position: relative; */
     list-style-type: none;
     top: 45px;
     padding: 1rem 1rem;
@@ -455,16 +442,11 @@ footer p {
   }
 
   .sub-menu-desktop {
-    /* display: none;  */
-    /* display: inline;  */
     background-color: #059eb1;
-    /* width: 100%; */
-    /* box-sizing: border-box; */
     position: absolute; 
     z-index: 1000;
     text-align: left;
     top: 90px;
-
   }
 
   .sub-menu li {
@@ -534,7 +516,6 @@ footer p {
 
 /********** End Min-Width 900px Media Query ****************/
 
-
 /********** Start Min-Width 1100px Media Query ****************/
 @media (min-width: 1100px) {
   li {
@@ -557,12 +538,12 @@ footer p {
     font-size: 1.2rem;
   }
 }
-
 /********** End Min-Width 1100px Media Query ****************/
 
 /********** Start Min-Width 1300px Media Query ****************/
 @media (min-width: 1300px) {
-   .hero-wrapper, .hero-wrapper-dogs, .hero-wrapper-cats {
+  .hero-wrapper, .hero-wrapper-dogs, .hero-wrapper-cats {
     height: 460px;
   }
+}
 /********** End Min-Width 1300px Media Query ****************/
